@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+    background-color: whitesmoke;
+ /* background-color: #007849; */
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    width: 1300px;
+}
+header{
+    width: 1349px;
+    height: 500px;
+    /* border: 1px solid black; */
+    /* margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px; */
+    /* background-color: beige; */
+    background-color: rgb(231, 231, 180);
+    border-radius: 0px 0px 15px 15px;
+    position: fixed;
+
+}
+.nav{
+    width: 1349px;
+    height: 70px;
+    /* border-radius: 15px; */
+    /* border: 1px solid black; */
+    /* background-color: #FECE00; */
+    /* background-color: beige; */
+    background-color: rgb(231, 231, 180);
+    /* border-radius: 0px 0px 15px 15px; */
+    /* border-radius:  15px 15px 0px 0px; */
+    position: fixed;
+    z-index: 11;
+    top: 0;
+}
+.navScrol{
+    width: 1349px;
+    height: 70px;
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    /* background-color: rgb(205, 205, 190);
+    box-shadow: 0 0 0 3rem rgba(0, 0, 0, 120); */
+}
+   
+
+.td1{
+    width: 749px;
+    padding-left: 30px;
+    /* border: 1px solid black; */
+    
+}
+.td2{
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border: 1px solid black; */
+    text-align: center;
+    
+}
+a{
+    color: black; 
+    text-decoration: none;
+}
+
+/* .ket1{
+    padding-top: 30px;
+    text-align: center;
+    text-shadow: 10000000vh;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bolder;
+    
+} */
+
+.historia{
+    width: 1349px;
+    height: 700px;
+    /* border: 1px solid black; */
+    margin-top: 120px;
+    /* margin-bottom: 120px; */
+    /* margin-left: 80px;
+    margin-right: 80px; */
+    border-radius: 10px;
+    /* background-color: rgb(231, 231, 180); */
+}
+#historia{
+    color: black;
+    padding-top: 25px;
+    
+}
+#asta{
+    color: black;
+    padding-top: 25px;
+    
+}
+#keraton{
+    color: black;
+    padding-top: 25px;
+    
+}
+.judulMenu{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+.isiHistoria{
+    padding-top: 10px;
+    font-size: 18px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.isiHist2{
+    font-size: 20px;
+}
+img{
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* filter: grayscale(); */
+}
+.imglogo{
+    filter: grayscale(1000);
+}
+.table1{
+    border-collapse: separate;
+    /* border: 1px solid black; */
+    border-spacing: 50px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+/* tr{
+    border: 1px solid black;
+} */
+.td{
+    /* border: 1px solid black; */
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-right: 9px;
+    padding-left: 9px;
+}
+.backimg{
+    background-color: rgb(90, 101, 85);
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+    
+}
+.ketbackimg{
+    color: rgb(231, 231, 180);
+    font-size: 16px;
+    text-align: left;
+    font-style: normal;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.ket2backimg{
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 100;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.keraton{
+    width: 1349px;
+    height: 700px;
+    /* border: 1px solid black; */
+    /* margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 80px;
+    margin-right: 80px; */
+    /* border-radius: 15px; */
+    /* background-color:rgb(231, 231, 180); */
+    
+}
+#keraton{
+    color: black;
+    padding-top: 25px;
+    
+}
+.isiKeraton{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: justify;
+}
+li{
+    list-style: none;
+}
+.backimgkr{
+    /* background-color: rgb(184, 184, 184); */
+    background-color: rgb(90, 101, 85);
+    /* background-image: linear-gradient(rgb(231, 231, 180),rgb(90, 101, 85) ); */
+    /* background-color: rgb(231, 231, 180); */
+    border-radius: 15px;
+    height: 350px;
+    width: 280px;
+    /* margin-left: 10px; */
+    padding-left: 14px;
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
+.tablekr{
+    /* border: 1px solid black; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    width: 1349px;
+    border-collapse: separate;
+    /* border: 1px solid black; */
+}
+.tdkr{
+    /* border: 1px solid black; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ketbackimgkr{
+    /* color: rgb(231, 231, 180); */
+    font-size: 16px;
+    text-align: left;
+    font-style: normal;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.ket2backimgkr{
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 350;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+
+}
+.asta{
+    width: 1349px;
+    height: 600px;
+    /* border: 1px solid black; */
+    /* margin-left: 80px;
+    margin-right: 80px;  */
+    /* border-radius: 15px; */
+    /* background-color: rgb(231, 231, 180); */
+
+    
+}
+.tableast{
+    /* border: 1px solid black; */
+    width: 1200px;
+    height: 300px;
+    margin-left: 70px;
+    margin-right: 50px;
+    /* background-color: whitesmoke; */
+    /* border: 1px solid black; */
+    /* background: url('ast.jpg')no-repeat center center/cover; */
+    color: black;
+    border-radius:15px ;
+
+}
+.isiAsta{
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.masjid{
+    width: 1347px;
+    height: 600px;
+    border: 1px solid black;
+    padding-bottom: 100px
+}
+.backMasjid{
+    background-color: rgb(90, 101, 85);
+    width: 1000px;
+    height: 200px;
+    height: 100px;
+    width: 1349px;
+}
+.isiMasjid{
+    padding-top: 30px;
+    font-size: 14px;
+    text-align: left;
+    font-weight: normal;
+    
+
+}
+
+.tablems{
+    /* border: 1px solid black;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    /* padding-top: 40px;
+    padding-bottom: 40px;
+    width: 1349px;
+    border: 1px solid black;
+    border-spacing: 50px 0;
+    border-collapse: separate;  */
+    /* border: 1px solid black; */
+    border-spacing: 36px;
+    padding-left: 80px;
+    padding-right: 50px;
+     /* background-color: rgb(90, 101, 85); */
+} 
+.tdms{
+    /* padding-left: 10px;
+    padding-right: 20px; */
+    /* border: 1px solid black; */
+    padding-left: 20px;
+    padding-right: 20px;
+}    
+.viewmasjid{
+    text-align: center;
+    font-size: 18px;
+}
+.penjelasMasjid{
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 100px;
+    font-size: 14px;
+    font-weight: normal;
+}
+footer{
+    width: 1349px;
+    height: 50px;
+    background-color: rgb(90, 101, 85);
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}

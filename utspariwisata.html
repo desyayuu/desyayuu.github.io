@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pariwisata</title>
+    <link rel="stylesheet" href="utspariwisata.css">
+    <link rel="stylesheet" href="app2.js">
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo"><img class="imglogo" src="soul3.png" width="100px"></a>
+            <ul>
+                <div id="marker"></div>
+                <li><a href="index.html">Historia</a></li>
+                <li>
+                    <a href="index.html" class="dropbtn">Cagar Budaya</a>    
+                </li>
+                <li class="dropdown">
+                        <a href="utstradisi.html" class="dropbtn">Tradisi</a>    
+                        
+                    </a>
+                </li>
+                <li class="dropdown">
+                        <a href="" class="dropbtn">Pariwisata</a>    
+                    </a>
+                </li>
+            </div>
+        </ul>
+</header>
+
+    <div class="container">
+        <div class="content-slide">
+            <div class="imgslide fade">
+                <div class="numberslide">1 / 3</div>
+                <img class="img1" src="giliyang4.jpeg" alt="">
+                <div class="text">Gili Iyang</div>
+            </div>
+
+            <div class="imgslide fade">
+                <div class="numberslide">2 / 3</div>
+                <img class="img1" src="p6.jpeg" alt="">
+                <div class="text">Gili Labak</div>
+            </div>
+
+            <div class="imgslide fade">
+                <div class="numberslide">3 / 3</div>
+                <img  class="img1" src="topote.jpeg" alt="">
+                <div class="text">Batu Putih</div>
+            </div>
+
+            <a class="prev" onClick="nextslide(-1)">&#10094;</a>
+            <a class="next" onClick="nextslide(1)">&#10095;</a> 
+        </div>
+
+        <div class="page">
+            <span class="dot" onClick="dotslide(1)"></span>
+            <span class="dot" onClick="dotslide(2)"></span>
+            <span class="dot" onClick="dotslide(3)"></span>
+        </div>
+
+    </div>
+    <script src ="app2.js">
+    </script>
+    
+</body>
+</html>

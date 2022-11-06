@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: whitesmoke;
+    height: 300px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    z-index: inherit;
+    padding: 4px 100px;
+    /* background-color: rgb(231, 231, 180); */
+    background-color: whitesmoke;
+}
+/* perubahan buat abis scroll */
+header.sticky{
+    padding: 5px 100px;
+    background: whitesmoke;
+}
+header .logo{
+    position: relative;
+    filter: grayscale(100);
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+header ul{
+    position: relative;
+
+    justify-content: center;
+    align-items: center;
+}
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(231, 231, 141);
+    border-radius: 15px;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 13px;
+    font-size: 15px;
+    width: max-content;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+header.sticky .logo,
+header.sticky ul li a{
+    color: #000;
+}
+header.sticky .logo,
+header.sticky ul li a{
+    color: #000;
+}
+
+.container {
+    background-color: whitesmoke;
+    margin-top: 90px;
+    padding-bottom: 100px;
+    height: 500px;
+}
+/* Slideshow container */
+.content-slide {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.imgslide {
+    display:flex;
+}
+
+.img1 {
+    vertical-align: middle;
+    width: 1000px;
+    height: 500px;
+    /* width:100%;height: 450px; */
+
+    border-radius: 15px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    color: rgb(255, 254, 224);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.pre:hover,
+.next:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+}
+
+.text {
+    color: #fafafa;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-shadow: #000;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.content-slide .numberslide {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* resposive */
+
+@media screen and (max-width: 800px) {
+
+    .content-slide {
+        padding: 8px 50px 12px 50px;
+    }
+
+    .next {
+        right: 50px;
+        border-radius: 3px 0 0 3px;
+    }
+    
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }    
+    to {
+        opacity: 1;
+    }
+}
+
+.container .page {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.page .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border-radius: 50%;
+}
+
+.page .active,
+.page .dot:hover {
+    background-color: black;
+}
